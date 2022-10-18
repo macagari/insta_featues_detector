@@ -1,0 +1,78 @@
+GOTO------Instagram------https://www.instagram.com
+WAIT_SELECTOR------body > div.RnEpo.Yx5HN._4Yzd2 > div > div > button.aOOlW.HoLwm
+CLICK------body > div.RnEpo.Yx5HN._4Yzd2 > div > div > button.aOOlW.HoLwm
+WAIT_SELECTOR------#loginForm > div > div:nth-child(1) > div > label > input
+USERNAME------gracaliffosp------#loginForm > div > div:nth-child(1) > div > label > input
+WAIT_SELECTOR------#loginForm > div > div:nth-child(2) > div > label > input
+PASSWORD_CRYPTED------Hsbdbmjggptq:5`"------#loginForm > div > div:nth-child(2) > div > label > input
+CLICK------#loginForm > div > div:nth-child(3) > button > div
+WAIT_FOR_SECONDS------5------2
+WAIT_SELECTOR------text=Save
+CLICK------text=Save
+WAIT_FOR_SECONDS------5------2
+#CLICK------#react-root > section > main > div > div > div > div > button
+#WAIT_SELECTOR------#react-root > section > nav > div._8MQSO.Cx7Bp > div > div > div.QY4Ed.P0xOK > input
+#FILL------REACHED------#react-root > section > nav > div._8MQSO.Cx7Bp > div > div > div.QY4Ed.P0xOK > input
+#WAIT_SELECTOR------text=Search
+#FILL------REACHED------text=Search
+#WAIT_SELECTOR------#mount_0_0_EB > div > div > div > div.x9f619.x1n2onr6.x1ja2u2z > div > div > div > div.x78zum5.xdt5ytf.x10cihs4.x1t2pt76.x1n2onr6.x1ja2u2z > section > nav > div._acc1._acc3 > div > div > div._aawf._aawg._aexm > input
+#FILL------REACHED------#mount_0_0_EB > div > div > div > div.x9f619.x1n2onr6.x1ja2u2z > div > div > div > div.x78zum5.xdt5ytf.x10cihs4.x1t2pt76.x1n2onr6.x1ja2u2z > section > nav > div._acc1._acc3 > div > div > div._aawf._aawg._aexm > input
+WAIT_SELECTOR------//html/body/div[1]/div/div/div/div[1]/div/div/div/div[1]/section/nav/div[2]/div/div/div[2]/input
+FILL------REACHED------//html/body/div[1]/div/div/div/div[1]/div/div/div/div[1]/section/nav/div[2]/div/div/div[2]/input
+GOTO_DEEP_INSTAGRAM------Instagram/cristiano------https://www.instagram.com/cristiano/
+GOTO_DEEP_INSTAGRAM------Instagram/giuseppeconte_ufficiale------https://www.instagram.com/giuseppeconte_ufficiale
+GOTO_DEEP_INSTAGRAM------Instagram/monicageuze------https://www.instagram.com/monicageuze
+GOTO_DEEP_INSTAGRAM------Instagram/roccotanica_official------https://www.instagram.com/roccotanica_official
+GOTO_DEEP_INSTAGRAM------Instagram/laurapausini------https://www.instagram.com/laurapausini
+GOTO_DEEP_INSTAGRAM------Instagram/la_mainoo------https://www.instagram.com/la_mainoo/
+GOTO_DEEP_INSTAGRAM------Instagram/mirkogancitano------https://www.instagram.com/mirkogancitano
+GOTO_DEEP_INSTAGRAM------Instagram/marco------https://www.instagram.com/marco
+GOTO_DEEP_INSTAGRAM------Instagram/luca------https://www.instagram.com/luca
+GOTO_DEEP_INSTAGRAM------Instagram/giorgio------https://www.instagram.com/giorgio
+GOTO_DEEP_INSTAGRAM------Instagram/macagari------https://www.instagram.com/macagari
+EXIT
+/html/body/div[1]/div/div/div/div[2]/div/div/div[1]/div/div[3]/div/div/div/div/div[2]/div/article/div/div[1]/div/div[1]/div[2]/div/div/div/ul/li[2]/div/div/div/div/div[1]/div[2]
+/html/body/div[1]/div/div/div/div[2]/div/div/div[1]/div/div[3]/div/div/div/div/div[2]/div/article/div/div[1]/div/div/div[3] ---video
+/html/body/div[1]/div/div/div/div[2]/div/div/div[1]/div/div[3]/div/div/div/div/div[2]/div/article/div/div[1]/div/div/div/div[1]/div[2]
+/html/body/div[1]/div/div/div/div[2]/div/div/div[1]/div/div[3]/div/div/div/div/div[2]/div/article/div/div[1]/div/div/div/div[1]/div[2]
+/html/body/div[1]/div/div/div/div[2]/div/div/div[1]/div/div[3]/div/div/div/div/div[2]/div/article/div/div[1]/div/div[1]/div[2]/div/div/div/ul/li[2]/div/div/div/div/div[1]/div[2]
+/html/body/div[1]/div/div/div/div[2]/div/div/div[1]/div/div[3]/div/div/div/div/div[2]/div/article/div/div[1]/div/div[1]/div[2]/div/div/div/ul/li[2]/div/div/div/div/div[1]/div[2]
+/html/body/div[1]/div/div/div/div[2]/div/div/div[1]/div/div[3]/div/div/div/div/div[2]/div/article/div/div[1]/div/div/div/div[1]/div[2]
+/html/body/div[1]/div/div/div/div[2]/div/div/div[1]/div/div[3]/div/div/div/div/div[2]/div/article/div/div[1]/div/div/div/div[2]
+/html/body/div[1]/div/div/div/div[2]/div/div/div[1]/div/div[3]/div/div/div/div/div[2]/div/article/div/div[1]/div/div/div[3]
+
+/html/body/div[1]/div/div/div/div[2]/div/div/div[1]/div/div[3]/div/div/div/div/div[2]/div/article/div/div[1]/div/div/div[3]
+/html/body/div[1]/div/div/div/div[2]/div/div/div[1]/div/div[3]/div/div/div/div/div[2]/div/article/div/div[1]/div/div/div/div[2]
+/html/body/div[1]/div/div/div/div[2]/div/div/div[1]/div/div[3]/div/div/div/div/div[2]/div/article/div/div[1]/div/div/div[3]
+/html/body/div[1]/div/div/div/div[2]/div/div/div[1]/div/div[3]/div/div/div/div/div[2]/div/article/div/div[1]/div/div/div[3]
+/html/body/div[1]/div/div/div/div[2]/div/div/div[1]/div/div[3]/div/div/div/div/div[2]/div/article/div/div[1]/div/div/div[3]
+/html/body/div[1]/div/div/div/div[2]/div/div/div[1]/div/div[3]/div/div/div/div/div[2]/div/article/div/div[1]/div/div[1]/div[2]/div/div/div/ul/li[2]/div/div/div/div/div[1]/div[2]
+
+body > div.RnEpo._Yhr4 > div.pbNvD.QZZGH.bW6vo > div > article > div > div._97aPb.C2dOX.HCDIA > div > div > div.eLAPa.vF75o > div._9AhH0
+body > div.RnEpo._Yhr4 > div.pbNvD.QZZGH.bW6vo > div > article > div > div._97aPb.C2dOX.HCDIA > div > div.pR7Pc > div.qF0y9.Igw0E.IwRSH.eGOV_._4EzTm.O1flK.D8xaz.fm1AK.TxciK.yiMZG > div > div > div > ul > li:nth-child(2) > div > div > div > div.eLAPa.vF75o > div._9AhH0
+body > div.RnEpo._Yhr4 > div.pbNvD.QZZGH.bW6vo > div > article > div > div._97aPb.C2dOX.HCDIA
+body > div.RnEpo._Yhr4 > div.pbNvD.QZZGH.bW6vo > div > article > div > div._97aPb.C2dOX.HCDIA
+body > div.RnEpo._Yhr4 > div.pbNvD.QZZGH.bW6vo > div > article > div > div._97aPb.C2dOX.HCDIA
+body > div.RnEpo._Yhr4 > div.pbNvD.QZZGH.bW6vo > div > article > div > div._97aPb.C2dOX
+body > div.RnEpo._Yhr4 > div.pbNvD.QZZGH.bW6vo > div > article > div > div._97aPb.C2dOX > div
+#react-root > section > main > div > div.ltEKP > article > div > div._97aPb.wKWK0
+LOOP_SCREENSHOTS
+#mount_0_0_SL > div > div > div > div.x9f619.x1n2onr6.x1ja2u2z > div > div > div > div.x78zum5.xdt5ytf.x10cihs4.x1t2pt76.x1n2onr6.x1ja2u2z > section > nav > div._acc1._acc3 > div > div > div._aawf._aawg._aexm > input
+//*[@id="mount_0_0_SL"]/div/div/div/div[1]/div/div/div/div[1]/section/nav/div[2]/div/div/div[2]/input   
+#react-root > section > main > div > div._2z6nI > article > div:nth-child(1) > div > div:nth-child(1) > div:nth-child(1)
+#react-root > section > nav > div._8MQSO.Cx7Bp > div > div > div.QY4Ed.P0xOK > div.yPP5B > div > div._01UL2 > div > div:nth-child(2) > a > div
+#f34ebb4c2e2ccb8 > div > div > div._7UhW9.xLCgt.qyrsm.KV-D4.uL8Hv
+#f12d4bfce5e669c > div > div > div
+#react-root > section > main > div > div._2z6nI > article > div:nth-child(1) > div > div:nth-child(1) > div:nth-child(3) > a > div.eLAPa > div._9AhH0
+#react-root > section > main > div > div._2z6nI > article > div:nth-child(1) > div > div:nth-child(10) > div:nth-child(3)
+#react-root > section > main > div > div._2z6nI > article > div:nth-child(1) > div > div:nth-child(11) > div:nth-child(3)
+#react-root > section > main > div > div._2z6nI > article > div:nth-child(1) > div > div:nth-child(11) > div:nth-child(2) > a > div.eLAPa > div._9AhH0
+WAIT_SELECTOR------#login-username
+USERNAME------testate.giornalistiche@ilivetech.it------#login-username
+PASSWORD------Livetech2019!------#login-password
+WAIT_FOR_SECONDS------20------5
+CLICK------#modal-login > div > div > div.modal-body > form > div > div.form-group.d-flex.align-items-center > button
+WAIT_SELECTOR------#header > div.hgr.hgr--up.order-1 > div > div > ul.hnav.hnav--right.hnav--lined > li.hnav-item.hnav-item--no-brd-md > div > a > span.hicon-label
+CHECK_VALUE------#header > div.hgr.hgr--up.order-1 > div > div > ul.hnav.hnav--right.hnav--lined > li.hnav-item.hnav-item--no-brd-md > div > a > span.hicon-label------LL
+#mount_0_0_rC > div > div > div > div.x9f619.x1n2onr6.x1ja2u2z > div > div > div > div.x78zum5.xdt5ytf.x10cihs4.x1t2pt76.x1n2onr6.x1ja2u2z > section > main > div > div._ab8w._ab94._ab99._ab9f._ab9m._ab9o._abcm > article > div:nth-child(1) > div > div:nth-child(1) > div:nth-child(1) > a > div._aatp/html/body/div[1]/div/div/div/div[1]/div/div/div/div[1]/section/main/div/div[3]/article/div[1]/div/div[1]/div[2]/a/div/div[2]
+/html/body/div[1]/div/div/div/div[1]/div/div/div/div[1]/section/main/div/div[3]/article/div[1]/div/div[1]/div[2]/a/div/div[2]
