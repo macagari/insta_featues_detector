@@ -1,0 +1,11 @@
+# this override is for local development, it is used automatically by docker-compose
+version: "3.5"
+services:
+  instagram_loko:
+    build:
+      context: .
+    volumes:
+      - ./:/app
+    ports:
+      - "8080:8080"
+    command: [ "uvicorn", "services:app", "--host", "0.0.0.0", "--port", "8080", "--reload" ]

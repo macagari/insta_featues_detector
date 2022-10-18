@@ -1,0 +1,4 @@
+version: '3.6'
+services:
+  instagram_loko:
+    restart: unless-stopped
