@@ -13,12 +13,16 @@ certifi==2022.9.24
 charset-normalizer==2.1.1
     # via requests
 click==8.1.3
-    # via uvicorn
+    # via
+    #   flask
+    #   uvicorn
 dnspython==2.2.1
     # via email-validator
 email-validator==1.3.0
     # via fastapi
 fastapi[all]==0.85.1
+    # via -r requirements.txt
+flask==2.2.2
     # via -r requirements.txt
 h11==0.14.0
     # via uvicorn
@@ -29,14 +33,24 @@ idna==3.4
     #   anyio
     #   email-validator
     #   requests
+importlib-metadata==5.0.0
+    # via flask
 itsdangerous==2.1.2
-    # via fastapi
+    # via
+    #   fastapi
+    #   flask
 jinja2==3.1.2
-    # via fastapi
+    # via
+    #   fastapi
+    #   flask
 loko-client==0.0.1.dev1
     # via -r requirements.txt
+loko-extensions==0.0.1.dev5
+    # via -r requirements.txt
 markupsafe==2.1.1
-    # via jinja2
+    # via
+    #   jinja2
+    #   werkzeug
 orjson==3.8.0
     # via fastapi
 pydantic==1.10.2
@@ -77,3 +91,7 @@ watchfiles==0.17.0
     # via uvicorn
 websockets==10.3
     # via uvicorn
+werkzeug==2.2.2
+    # via flask
+zipp==3.9.0
+    # via importlib-metadata

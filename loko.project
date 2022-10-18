@@ -3,10 +3,156 @@
   "id": "instagram_loko",
   "description": "",
   "created_on": "18/10/2022, 08:08:50",
-  "last_modify": "18/10/2022, 08:08:50",
+  "last_modify": "18/10/2022, 14:39:18",
   "graphs": {
     "main": {
-      "nodes": [],
+      "nodes": [
+        {
+          "id": "c7aea46f-d21e-4f06-b954-91f414c2e15e",
+          "position": {
+            "x": 894,
+            "y": 302
+          },
+          "type": "custom",
+          "dragHandle": "#nodeHandle",
+          "sourcePosition": "right",
+          "targetPosition": "left",
+          "width": 197,
+          "height": 88,
+          "selected": false,
+          "dragging": false,
+          "data": {
+            "name": "Images Instagram",
+            "events": null,
+            "description": "",
+            "inputs": [
+              {
+                "id": "input",
+                "label": "Download",
+                "service": "download_images",
+                "to": "output_download_images"
+              }
+            ],
+            "outputs": [
+              {
+                "id": "output_download_images",
+                "label": "Download"
+              }
+            ],
+            "configured": true,
+            "options": {
+              "group": "Custom",
+              "args": [
+                {
+                  "name": "comment",
+                  "type": "area",
+                  "label": "Node comment",
+                  "helper": "Use it to explain the usage of this node"
+                },
+                {
+                  "name": "alias",
+                  "type": "text",
+                  "label": "Name",
+                  "helper": "Use this name as an alias"
+                },
+                {
+                  "name": "debug",
+                  "type": "boolean",
+                  "label": "Debug to Console",
+                  "divider": true
+                },
+                {
+                  "name": "username",
+                  "type": "text",
+                  "label": "Username",
+                  "helper": "Instagram Username to log in ",
+                  "group": "",
+                  "value": "macagari",
+                  "description": "",
+                  "validation": null
+                },
+                {
+                  "name": "password",
+                  "type": "password",
+                  "label": "Password",
+                  "helper": "",
+                  "group": "",
+                  "value": "Garcia1067",
+                  "description": "",
+                  "validation": null
+                },
+                {
+                  "name": "profile",
+                  "type": "text",
+                  "label": "Profile Name",
+                  "helper": "Specify an Instragram public profile where to download the images",
+                  "group": "",
+                  "value": "lancomeofficial",
+                  "description": "",
+                  "validation": null
+                },
+                {
+                  "name": "images_numbers",
+                  "type": "number",
+                  "label": "Images Number",
+                  "helper": "Total images to download",
+                  "group": "",
+                  "value": 2,
+                  "description": "",
+                  "validation": null
+                },
+                {
+                  "name": "images_directory",
+                  "type": "directories",
+                  "label": "Images Directory",
+                  "helper": "Select a directory where to save the images",
+                  "group": "",
+                  "value": "images_instagram",
+                  "description": "",
+                  "validation": null
+                },
+                {
+                  "name": "timeout",
+                  "type": "number",
+                  "label": "Timeout Value",
+                  "helper": "Set a higher timeout value if your internet connectio is slow",
+                  "group": "",
+                  "value": 5000,
+                  "description": "",
+                  "validation": null
+                }
+              ],
+              "click": "Send message",
+              "icon": "RiPolaroid2Line",
+              "values": {
+                "comment": "",
+                "alias": "",
+                "debug": true,
+                "username": "macagari",
+                "password": "Garcia1067",
+                "profile": "lancomeofficial",
+                "images_numbers": "2",
+                "timeout": "5000",
+                "images_directory": {
+                  "name": "example1",
+                  "path": "data/example1",
+                  "parent": "data",
+                  "isDir": true,
+                  "hidden": false
+                }
+              }
+            },
+            "locked": null
+          },
+          "selectable": true,
+          "draggable": true,
+          "positionAbsolute": {
+            "x": 894,
+            "y": 302
+          },
+          "__class__": "Node"
+        }
+      ],
       "edges": [],
       "__class__": "Graph"
     }

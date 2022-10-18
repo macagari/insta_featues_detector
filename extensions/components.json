@@ -1,0 +1,97 @@
+[
+ {
+  "name": "Images Instagram",
+  "description": "",
+  "group": "Custom",
+  "icon": "RiPolaroid2Line",
+  "click": "Send message",
+  "events": null,
+  "configured": false,
+  "inputs": [
+   {
+    "id": "input",
+    "label": "Download",
+    "service": "download_images",
+    "to": "output_download_images"
+   }
+  ],
+  "outputs": [
+   {
+    "id": "output_download_images",
+    "label": "Download"
+   }
+  ],
+  "options": {
+   "values": {
+    "username": "macagari",
+    "password": "Garcia1067",
+    "profile": "lancomeofficial",
+    "images_numbers": 2,
+    "images_directory": "images_instagram",
+    "timeout": 5000
+   },
+   "args": [
+    {
+     "name": "username",
+     "type": "text",
+     "label": "Username",
+     "helper": "Instagram Username to log in ",
+     "group": "",
+     "value": "macagari",
+     "description": "",
+     "validation": null
+    },
+    {
+     "name": "password",
+     "type": "password",
+     "label": "Password",
+     "helper": "",
+     "group": "",
+     "value": "Garcia1067",
+     "description": "",
+     "validation": null
+    },
+    {
+     "name": "profile",
+     "type": "text",
+     "label": "Profile Name",
+     "helper": "Specify an Instragram public profile where to download the images",
+     "group": "",
+     "value": "lancomeofficial",
+     "description": "",
+     "validation": null
+    },
+    {
+     "name": "images_numbers",
+     "type": "number",
+     "label": "Images Number",
+     "helper": "Total images to download",
+     "group": "",
+     "value": 2,
+     "description": "",
+     "validation": null
+    },
+    {
+     "name": "images_directory",
+     "type": "directories",
+     "label": "Images Directory",
+     "helper": "Select a directory where to save the images",
+     "group": "",
+     "value": "images_instagram",
+     "description": "",
+     "validation": null
+    },
+    {
+     "name": "timeout",
+     "type": "number",
+     "label": "Timeout Value",
+     "helper": "Set a higher timeout value if your internet connectio is slow",
+     "group": "",
+     "value": 5000,
+     "description": "",
+     "validation": null
+    }
+   ]
+  }
+ }
+]

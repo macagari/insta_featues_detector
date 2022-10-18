@@ -1,3 +1,5 @@
 fastapi[all]
 loko-client
 uvicorn
+flask
+loko_extensions
