@@ -1,0 +1,20 @@
+{
+  "name": "instagram_loko",
+  "id": "instagram_loko",
+  "description": "",
+  "created_on": "18/10/2022, 08:08:50",
+  "last_modify": "18/10/2022, 08:08:50",
+  "graphs": {
+    "main": {
+      "nodes": [],
+      "edges": [],
+      "__class__": "Graph"
+    }
+  },
+  "open": [
+    "main"
+  ],
+  "active": "main",
+  "version": "1.0.0",
+  "__class__": "Project"
+}
