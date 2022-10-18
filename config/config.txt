@@ -1,0 +1,6 @@
+username:gracaliffosp
+password:Gracaliffosp94_!
+images_number:10
+timeout:5000
+profiles:grazianospecchi
+cristiano
