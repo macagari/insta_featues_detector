@@ -37,3 +37,5 @@ async def get_collections(example_body: Dict):
 
     logger.debug("done!")
     return dict(msg="ok")
+
+
